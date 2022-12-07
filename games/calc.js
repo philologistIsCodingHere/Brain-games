@@ -2,6 +2,7 @@ export const task = 'What is the result of the expression?';
 
 const maxRandomNumber = 100;
 const operators = ['+', '-', '*'];
+
 export const getQuestionAndResult = () => {
   let result;
   const randomNumberOne = Math.floor(Math.random() * maxRandomNumber);
