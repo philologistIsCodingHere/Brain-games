@@ -1,6 +1,7 @@
 export const task = 'Find the greatest common divisor of given numbers.';
 
 const maxRandomNumber = 100;
+
 export const getQuestionAndResult = () => {
   let result = '';
   let randomNumberOne = Math.floor(Math.random() * maxRandomNumber);
