@@ -15,7 +15,7 @@ export const getQuestionAndResult = () => {
   }
   if (question === 2) {
     result = 'yes';
-  } else if (question === 1) {
+  } else if (question === 0 || question === 1) {
     result = 'no';
   }
   return [question, result];
