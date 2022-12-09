@@ -5,7 +5,7 @@
 ### Installation:
 ```
 1. git clone git@github.com:philologistIsCodingHere/frontend-project-44.git
-2. sudo npm link
+2. make install
 3. brain-<name of the game>
 ```
 ### Description:
