@@ -6,7 +6,7 @@ export const getQuestionAndResult = () => {
   let result;
   const question = Math.floor(Math.random() * maxRandomNumber);
   for (let i = 2; i < question; i += 1) {
-    if (question % i === 0 || question === 1) {
+    if (question % i === 0) {
       result = 'no';
       break;
     } else {
