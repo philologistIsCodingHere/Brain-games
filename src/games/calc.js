@@ -1,6 +1,9 @@
 import getRandomNumber from '../math.js';
 
-export const task = 'What is the result of the expression?';
+const MAX_RANDOM_NUMBER = 100;
+const OPERATORS = ['+', '-', '*'];
+
+export const TASK = 'What is the result of the expression?';
 
 const getCalc = (numberOne, operator, numberTwo) => {
   let result = '';
@@ -13,9 +16,6 @@ const getCalc = (numberOne, operator, numberTwo) => {
   }
   return result;
 };
-
-const MAX_RANDOM_NUMBER = 100;
-const OPERATORS = ['+', '-', '*'];
 
 export const getQuestionAndResult = () => {
   let result = '';
