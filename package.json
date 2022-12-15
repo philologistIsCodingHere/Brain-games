@@ -2,7 +2,7 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "type": "module",
-  "description": "[![Actions Status](https://github.com/philologistIsCodingHere/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/philologistIsCodingHere/frontend-project-44/actions)",
+  "description": "Brain-games it is a set of five games (brain-even, brain-calc, brain-gcd, brain-progression, brain-prime), each consisting of three rounds. [![Actions Status](https://github.com/philologistIsCodingHere/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/philologistIsCodingHere/frontend-project-44/actions)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
