@@ -12,12 +12,12 @@ const isEven = (number) => {
 };
 
 export const getQuestionAndResult = () => {
-  let result;
+  let answer;
   const question = getRandomNumber(MAX_RANDOM_NUMBER);
   if (isEven(question)) {
-    result = 'yes';
+    answer = 'yes';
   } else {
-    result = 'no';
+    answer = 'no';
   }
-  return [question, result];
+  return [question, answer];
 };
