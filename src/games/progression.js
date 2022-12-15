@@ -1,8 +1,9 @@
 import getRandomNumber from '../math.js';
 
-export const task = 'What number is missing in the progression?';
-
+const MAX_RANDOM_NUMBER = 100;
 const ELEMENTS_COUNT = 10;
+
+export const TASK = 'What number is missing in the progression?';
 
 const getProgression = (numberOne, numberTwo) => {
   let num = numberOne;
@@ -14,8 +15,6 @@ const getProgression = (numberOne, numberTwo) => {
   }
   return result;
 };
-
-const MAX_RANDOM_NUMBER = 100;
 
 export const getQuestionAndResult = () => {
   const randomNumberOne = getRandomNumber(MAX_RANDOM_NUMBER);
