@@ -1,6 +1,8 @@
 import getRandomNumber from '../math.js';
 
-export const task = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const MAX_RANDOM_NUMBER = 100;
+
+export const TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (number) => {
   if (number === 2) {
@@ -16,8 +18,6 @@ const isPrime = (number) => {
   }
   return true;
 };
-
-const MAX_RANDOM_NUMBER = 100;
 
 export const getQuestionAndResult = () => {
   let result;
