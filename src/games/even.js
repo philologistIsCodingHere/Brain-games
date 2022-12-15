@@ -1,6 +1,8 @@
 import getRandomNumber from '../math.js';
 
-export const task = 'Answer "yes" if the number is even, otherwise answer "no".';
+const MAX_RANDOM_NUMBER = 100;
+
+export const TASK = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const isEven = (number) => {
   if (number % 2 === 0) {
@@ -8,8 +10,6 @@ const isEven = (number) => {
   }
   return false;
 };
-
-const MAX_RANDOM_NUMBER = 100;
 
 export const getQuestionAndResult = () => {
   let result;
