@@ -6,7 +6,7 @@ const gamesLogic = (game) => {
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
-  console.log(game.task);
+  console.log(game.TASK);
   for (let i = 1; i <= ROUNDS_COUNT; i += 1) {
     const [question, result] = game.getQuestionAndResult();
     console.log(`Question: ${question}`);
