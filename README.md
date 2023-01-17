@@ -6,7 +6,7 @@
 ```
 1. git clone git@github.com:philologistIsCodingHere/frontend-project-44.git
 2. make install
-3. brain-<name of the game>
+3. node bin/brain-<name of the game>
 ```
 ### Description:
 #### Brain-games it is a set of five games, each consisting of three rounds.
